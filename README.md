@@ -5,6 +5,8 @@
 
 This is a project I built to practice working with APIs. I learned how to get data from a server and how to send data back using a POST request.
 
+*[link here](https://space-blog-space.netlify.app/)*
+
 ## Index
 
 - [About](#about)
@@ -63,9 +65,6 @@ I used a global array called postsArray to hold the data. When the page loads, I
 ## Contribution
 1. Found a bug? Open an issue and I'll try to fix it.
 2. Advice? If you know a better way to handle the POST request, I'd love to hear it!
-
-### Guideline
-I'm trying to keep this as "Vanilla" as possible—no frameworks allowed yet! I want to really understand the basics here.
 
 ## License
 Feel free to use this for your own practice!  **MIT**  License.
