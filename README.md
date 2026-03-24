@@ -1,7 +1,7 @@
 # BlogSpace
 
 ![JS Badge](https://img.shields.io/badge/Learning-JavaScript-yellow)
-![API Badge](https://img.shields.io/badge/API-Scrimba-blue)
+
 
 This is a project I built to practice working with APIs. I learned how to get data from a server and how to send data back using a POST request.
 
@@ -22,6 +22,7 @@ BlogSpace is a simple blog dashboard. The main goal was to learn how to:
 * Dynamically update the page using template literals and `.innerHTML`.
 
 It's currently hooked up to the Scrimba JSONPlaceholder API to simulate a real backend.
+*update: switched API with https://jsonplaceholder.typicode.com/posts*
 
 ## Usage
 

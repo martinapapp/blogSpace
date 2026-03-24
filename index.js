@@ -17,7 +17,7 @@ function renderPosts() {
     document.getElementById("blog-list").innerHTML = html
 }
 
-fetch("https://apis.scrimba.com/jsonplaceholder/posts")
+fetch("https://jsonplaceholder.typicode.com/posts")
     .then(res => res.json())
     .then(data => {
         postsArray = data.slice(0, 5)
@@ -42,7 +42,7 @@ form.addEventListener("submit", function(e) {
         }
     }
     
-    fetch("https://apis.scrimba.com/jsonplaceholder/posts", options)
+    fetch("https://jsonplaceholder.typicode.com/posts", options)
         .then(res => res.json())
         .then(post => {
             postsArray.unshift(post)
